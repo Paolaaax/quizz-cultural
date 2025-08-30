@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Turismo e Cultura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Turismo e Cultura</h1>
+        
+        <form id="quiz-form">
+            <div class="question">1. Qual é a capital da França?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="q1" value="a"> Paris</div>
+                <div class="option"><input type="radio" name="q1" value="b"> Londres</div>
+                <div class="option"><input type="radio" name="q1" value="c"> Roma</div>
+                <div class="option"><input type="radio" name="q1" value="d"> Berlim</div>
+            </div>
 
+            <div class="question">2. Onde está localizada a Muralha da China?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="q2" value="a"> Japão</div>
+                <div class="option"><input type="radio" name="q2" value="b"> China</div>
+                <div class="option"><input type="radio" name="q2" value="c"> Índia</div>
+                <div class="option"><input type="radio" name="q2" value="d"> Tailândia</div>
+            </div>
+
+            <div class="question">3. Qual é o maior país do mundo em termos de área?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="q3" value="a"> Brasil</div>
+                <div class="option"><input type="radio" name="q3" value="b"> Rússia</div>
+                <div class="option"><input type="radio" name="q3" value="c"> Canadá</div>
+                <div class="option"><input type="radio" name="q3" value="d"> China</div>
+            </div>
+
+            <div class="question">4. Qual é o símbolo cultural mais conhecido do Egito?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="q4" value="a"> Pirâmides de Gizé</div>
+                <div class="option"><input type="radio" name="q4" value="b"> Coliseu</div>
+                <div class="option"><input type="radio" name="q4" value="c"> Torre Eiffel</div>
+                <div class="option"><input type="radio" name="q4" value="d"> Estátua da Liberdade</div>
+            </div>
+
+            <div class="question">5. Qual é a língua oficial do Brasil?</div>
+            <div class="options">
+                <div class="option"><input type="radio" name="q5" value="a"> Espanhol</div>
+                <div class="option"><input type="radio" name="q5" value="b"> Português</div>
+                <div class="option"><input type="radio" name="q5" value="c"> Inglês</div>
+                <div class="option"><input type="radio" name="q5" value="d"> Francês</div>
+            </div>
+
+            <button type="button" class="submit-btn" onclick="checkAnswers()">Enviar Respostas</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
